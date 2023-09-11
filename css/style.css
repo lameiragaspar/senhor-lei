@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: border-box;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+div.div-texto{
+    max-width: 609px;
+    margin: 0px auto;
+}
+.cabeçalho p{
+    margin: 10px;
+    font-weight: bold;
+}
+.fundo_banner{
+    background: #3030af url(../img/capa.jpg) top left no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+.fundo_banner div{
+    text-align: right;
+    padding-top: 40px;
+}
+h1,h2{
+    margin-right: 10px;
+}
+h1{
+    font-size: 18px;
+    text-decoration: overline 2px;
+}
+h2{
+    font-size: 14px;
+    margin-top: 5px;
+    text-decoration: underline 2px;
+}
+.secao3 h3{
+    margin: 20px 0 10px 10px;
+    font-size: 15px;
+
+}
+.secao3 p{
+    margin-left: 10px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.secao3 img{
+    width: 200px;
+    margin-bottom: 7px;
+}
+.secao3 p span{
+    border-left: 1px solid;
+    padding-left: 4px;
+    font-size: 15px;
+}
+.imagem-de-fundo{
+    background: black url(../img/fundo.jpg) right top fixed;
+    background-size: cover;
+    height: 110px;
+}
+.imagem-de-fundo div{
+    padding-top: 1px;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+}
+.imagem-de-fundo div h3{
+    background-color: white;
+    border-radius: 15px;
+    padding: 2px;
+    margin: 40px auto;
+}
+.contatos{
+    padding: 40px;
+}
+.contatos p{
+    margin: 20px 0;
+}
+.contatos li{
+    margin-left: 40px;
+    line-height: 24px;
+}
